@@ -4,7 +4,7 @@ public class NewsTest extends BaseTest {
 
     private BasePage basePage;
 
-    @Test
+    //@Test
 
     public void testNews()  {
         basePage = new BasePage(driver);

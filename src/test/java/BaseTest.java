@@ -13,7 +13,7 @@ public class BaseTest {
     @BeforeClass
     public static void setUp() throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/sergeisysoev/Automation/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().fullscreen();
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
